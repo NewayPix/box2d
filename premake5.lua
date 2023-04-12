@@ -19,8 +19,8 @@ project "box2d"
 		"src"
 	}
 
-    filter "configuration:debug"
+    filter "configurations:debug"
 		symbols "on"
 
-	filter "configuration:release"
+	filter "configurations:release"
 		optimize "on"
